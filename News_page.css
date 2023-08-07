@@ -1,0 +1,101 @@
+body{
+    margin: 0;
+}
+.sidebar{
+    background-color: aliceblue;
+
+}
+.leftbar{
+    position: absolute;
+    text-align: center;
+    width: 20%;
+    height: 100%;
+}
+
+.sub-div{
+    position: absolute;
+    padding:0 0 10px 10px;
+    z-index: 2;
+    width: 80%;
+    height: 80%;
+    right: 0;
+    background-color: black;
+}
+.main-news{
+    position: absolute;
+    width: calc(100% - 10px);
+    height: 93%;
+}
+.logo{
+    position: absolute;
+    right: 20px;
+    top: 20px;
+    z-index: 4;
+    width: 100px;
+}
+
+
+.logo-out{
+    position: absolute;
+    top:15px;
+    left: 70px;
+    width: 100px;
+}
+.sardar{
+    position: absolute;
+    width: 40%;
+    top: 15%;
+    left: 50px;
+}
+.no-1{
+    position: absolute;
+    width: 90%;
+    bottom: 0;
+    left: 30px;
+}
+
+.headline{
+    position:absolute;
+    font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    font-weight: 800;
+    letter-spacing: 5px;
+    z-index: 5;
+    top:20%;
+    left:25%;
+    font-size: 80px;
+    background: linear-gradient(245deg,rgba(0, 61, 156, 1) 7%,
+        rgba(27, 120, 204, 1) 53%,rgba(0, 61, 156, 1) 73%);
+    border: 5px solid #dddcde;
+    color: #dddcde;
+}
+    
+
+marquee{
+    position: absolute;
+    bottom: 10px;
+    right: 0;
+    z-index:3;
+    padding-top : 10px;
+    height: 5%;
+    width: calc(100% - 14px);
+    border: 2px solid #fe9748;
+    font-weight: bold;
+    background: linear-gradient(180deg, rgba(248, 231, 162, 1) 0%, rgba(251, 220, 105, 1) 100%);
+}
+
+.footer{
+    font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    position: absolute;
+    font-weight: 700;
+    bottom: 0;
+    right: 10%;
+    font-size: 40px;
+    margin: 0;
+    color: blue;
+}
+
+span{
+    font-family:Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    font-size: 120px;
+    color: red;
+}

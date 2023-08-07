@@ -1,0 +1,58 @@
+body{
+    font-family:Georgia, 'Times New Roman', Times, serif;
+    text-align: center;
+}
+
+.container{
+    padding: 30px;
+    display: inline-block;
+    width : 500px;
+    background-color: #f4f7f8;
+    border-radius: 3px;
+    text-align: left;
+}
+.info-type{
+    font-size: 25px;
+    font-weight: 500;
+}
+.inner-info{
+    font-size: 15px;
+    font-weight: 600;
+}
+
+span{
+    font-size: 27px;
+    background-color: #196ebc;
+    color: white;
+    padding: 3px 12px 3px 8px;
+    border-radius: 50% 50% 50% 0;
+}
+
+input, textarea, select, option{
+    font-size: 15px;
+    height: 30px;
+    margin: 10px auto;
+    width: 100%;
+    border: 0;
+    background-color: #e8eeef;
+}
+input::placeholder, textarea::placeholder, select{
+    padding-left: 10px;
+    font-family: 'Times New Roman', Times, serif;
+    opacity: 80%;
+}
+select{
+    opacity: 50%;
+}
+
+textarea{
+    height: 40px;
+}
+
+.submit-btn{
+    height: 50px;
+    background-color: #196ebc;
+    border-radius: 3px;
+    font-size: 20px;
+    color: white;
+}

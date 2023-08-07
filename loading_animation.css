@@ -1,0 +1,24 @@
+body{
+    background-color: #f1f1f1;
+    font-family: 'Roboto', sans-serif;
+    font-size: 14px;
+    font-weight: 400;
+    text-align: center;
+}
+
+div{
+    margin-top: 200px;
+}
+
+hr{
+    border: 2px solid gray;
+    border-radius: 2px;
+    width: 100px;
+    animation: loading 1s alternate-reverse;
+    animation-iteration-count: infinite;
+}
+@keyframes loading{
+    0% {width: 10px}
+    50% {width: 50px}
+    100% {width: 100px}
+}
